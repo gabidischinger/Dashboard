@@ -1,0 +1,326 @@
+[
+    {
+        "id": "346",
+        "name": "Iron Man",
+        "powerstats": {
+            "intelligence": "100",
+            "strength": "85",
+            "speed": "58",
+            "durability": "85",
+            "power": "100",
+            "combat": "64"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'6",
+                "198 cm"
+            ],
+            "weight": [
+                "425 lb",
+                "191 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Black"
+        },
+        "publisher": "Marvel Comics"
+    },
+    {
+        "id": "149",
+        "name": "Captain America",
+        "powerstats": {
+            "intelligence": "69",
+            "strength": "19",
+            "speed": "38",
+            "durability": "55",
+            "power": "60",
+            "combat": "100"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'2",
+                "188 cm"
+            ],
+            "weight": [
+                "240 lb",
+                "108 kg"
+            ],
+            "eye-color": "blue",
+            "hair-color": "blond"
+        },
+        "publisher": "Marvel Comics"
+    },
+    {
+        "id": "332",
+        "name": "Hulk",
+        "powerstats": {
+            "intelligence": "88",
+            "strength": "100",
+            "speed": "63",
+            "durability": "100",
+            "power": "98",
+            "combat": "85"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Human / Radiation",
+            "height": [
+                "8'0",
+                "244 cm"
+            ],
+            "weight": [
+                "1400 lb",
+                "630 kg"
+            ],
+            "eye-color": "Green",
+            "hair-color": "Green"
+        },
+        "publisher": "Marvel Comics"
+    },
+    {
+        "id": "659",
+        "name": "Thor",
+        "powerstats": {
+            "intelligence": "69",
+            "strength": "100",
+            "speed": "83",
+            "durability": "100",
+            "power": "100",
+            "combat": "100"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Asgardian",
+            "height": [
+                "6'6",
+                "198 cm"
+            ],
+            "weight": [
+                "640 lb",
+                "288 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Blond"
+        },
+        "publisher": "Marvel Comics"
+    },
+    {
+        "id": "107",
+        "name": "Black Widow",
+        "powerstats": {
+            "intelligence": "75",
+            "strength": "13",
+            "speed": "33",
+            "durability": "30",
+            "power": "36",
+            "combat": "100"
+        },
+        "appearance": {
+            "gender": "Female",
+            "race": "Human",
+            "height": [
+                "5'7",
+                "170 cm"
+            ],
+            "weight": [
+                "131 lb",
+                "59 kg"
+            ],
+            "eye-color": "Green",
+            "hair-color": "Auburn"
+        },
+        "publisher": "Marvel Comics"
+    },
+    {
+        "id": "313",
+        "name": "Hawkeye",
+        "powerstats": {
+            "intelligence": "56",
+            "strength": "12",
+            "speed": "21",
+            "durability": "10",
+            "power": "29",
+            "combat": "80"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "6'3",
+                "191 cm"
+            ],
+            "weight": [
+                "230 lb",
+                "104 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Blond"
+        },
+        "publisher": "Marvel Comics"
+    },
+    {
+        "id": "263",
+        "name": "Flash",
+        "powerstats": {
+            "intelligence": "63",
+            "strength": "10",
+            "speed": "100",
+            "durability": "50",
+            "power": "68",
+            "combat": "32"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "5'11",
+                "180 cm"
+            ],
+            "weight": [
+                "179 lb",
+                "81 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Brown / White"
+        },
+        "publisher": "DC Comics"
+    },
+    {
+        "id": "644",
+        "name": "Superman",
+        "powerstats": {
+            "intelligence": "94",
+            "strength": "100",
+            "speed": "100",
+            "durability": "100",
+            "power": "100",
+            "combat": "85"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Kryptonian",
+            "height": [
+                "6'3",
+                "191 cm"
+            ],
+            "weight": [
+                "225 lb",
+                "101 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Black"
+        },
+        "publisher": "DC Comics"
+    },
+    {
+        "id": "720",
+        "name": "Wonder Woman",
+        "powerstats": {
+            "intelligence": "88",
+            "strength": "100",
+            "speed": "79",
+            "durability": "100",
+            "power": "100",
+            "combat": "100"
+        },
+        "appearance": {
+            "gender": "Female",
+            "race": "Amazon",
+            "height": [
+                "6'0",
+                "183 cm"
+            ],
+            "weight": [
+                "165 lb",
+                "74 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Black"
+        },
+        "publisher": "DC Comics"
+    },
+    {
+        "id": "38",
+        "name": "Aquaman",
+        "powerstats": {
+            "intelligence": "81",
+            "strength": "85",
+            "speed": "79",
+            "durability": "80",
+            "power": "100",
+            "combat": "80"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Atlantean",
+            "height": [
+                "6'1",
+                "185 cm"
+            ],
+            "weight": [
+                "325 lb",
+                "146 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Blond"
+        },
+        "publisher": "DC Comics"
+    },
+    {
+        "id": "194",
+        "name": "Cyborg",
+        "powerstats": {
+            "intelligence": "75",
+            "strength": "53",
+            "speed": "42",
+            "durability": "85",
+            "power": "71",
+            "combat": "64"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Cyborg",
+            "height": [
+                "6'6",
+                "198 cm"
+            ],
+            "weight": [
+                "385 lb",
+                "173 kg"
+            ],
+            "eye-color": "Brown",
+            "hair-color": "Black"
+        },
+        "publisher": "DC Comics"
+    },
+    {
+        "id": "69",
+        "name": "Batman",
+        "powerstats": {
+            "intelligence": "81",
+            "strength": "40",
+            "speed": "29",
+            "durability": "55",
+            "power": "63",
+            "combat": "90"
+        },
+        "appearance": {
+            "gender": "Male",
+            "race": "Human",
+            "height": [
+                "5'10",
+                "178 cm"
+            ],
+            "weight": [
+                "170 lb",
+                "77 kg"
+            ],
+            "eye-color": "Blue",
+            "hair-color": "Black"
+        },
+        "publisher": "DC Comics"
+    }
+]
