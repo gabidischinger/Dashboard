@@ -134,7 +134,7 @@ const barDatasetTemplate = json => {
     const males = json.filter(item => item.appearance.gender === 'Male');
 
     const obj = {
-        labels: ['Female', 'Male'],
+        label: 'Heros by Gender',
         data: [females.length, males.length],
         backgroundColor: [
             'rgba(255, 99, 132, 0.2)',
@@ -153,12 +153,12 @@ const barDatasetTemplate = json => {
 
 
 //CREATE BAR CHART FUNCTION 
-const createPieChart = (element, chartType, chartlabels, datasets) => {
+const createBarChart = (element, chartType, chartlabels, datasets) => {
     new Chart(element, {
         type: chartType,
         data: {
             labels: chartlabels,
-            datasets: datasets
+            datasets: [datasets]
         },
         options: {
             scales: {
@@ -176,14 +176,14 @@ fetch('/api/heroes')
     .then(responseToJson)
     .then(filterByPublisher('Marvel Comics'))
     .then(barDatasetTemplate)
-    .then(dataset => createPieChart(genderAvengersGraphElement, 'bar', genderGraphLabels, dataset));
+    .then(dataset => createBarChart(genderAvengersGraphElement, 'bar', genderGraphLabels, dataset));
 
 
 fetch('/api/heroes')
     .then(responseToJson)
     .then(filterByPublisher('DC Comics'))
     .then(barDatasetTemplate)
-    .then(dataset => createPieChart(genderJusticeLeagueGraphElement, 'bar', genderGraphLabels, dataset));
+    .then(dataset => createBarChart(genderJusticeLeagueGraphElement, 'bar', genderGraphLabels, dataset));
 
 
 /*
